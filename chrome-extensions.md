@@ -13,3 +13,7 @@ Chrome Extensions
 * Web Components - https://chrome.google.com/webstore/detail/filcobblndaenakhejinpjdblekilpgn
 
 Grab a list of your Chrome Plugins using - [Export links of all extensions](https://chrome.google.com/webstore/detail/export-links-of-all-exten/cmeckkgeamghjhkepejgjockldoblhcb?hl=en)
+
+## Bookmarklets
+
+* https://khan.github.io/tota11y/
