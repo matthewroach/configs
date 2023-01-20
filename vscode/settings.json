@@ -1,64 +1,72 @@
 {
-	"editor.tabSize": 2,
-	"editor.insertSpaces": false,
-	"editor.detectIndentation": false,
-	"editor.lineHeight": 24,
-	"editor.fontFamily": "Operator Mono",
-	"editor.renderIndentGuides": true,
-	"editor.wordWrap": "on",
-	"editor.acceptSuggestionOnEnter": "off",
-	"editor.emptySelectionClipboard": false,
-	"editor.fontLigatures": true,
-	"editor.formatOnSave": false,
-	"editor.minimap.enabled": false,
-	"window.zoomLevel": 0,
-	"workbench.editor.showTabs": true,
-	"workbench.editor.enablePreview": false,
-	"workbench.sideBar.location": "left",
-	"files.trimTrailingWhitespace": true,
-	"files.insertFinalNewline": true,
-	"terminal.external.osxExec": "iTerm.app",
-	"files.associations": {
-		"*.inc": "cfml"
-	},
-	"terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
-	"terminal.integrated.fontSize": 13,
-	"terminal.integrated.lineHeight": 1,
-	"window.title": "${activeEditorLong}",
-	"window.newWindowDimensions": "inherit",
-	"search.exclude": {
-		"**/node_modules": true,
-		"**/bower_components": true,
-		"**/.nyc_output": true,
-		"**/.sass-cache": true,
-		"**/.vagrant": true
-	},
-	"files.exclude": {
-		"**/.git": true,
-		"**/.svn": true,
-		"**/.hg": true,
-		"**/.DS_Store": true,
-		"**/.sass-cache": true,
-		"**/.vagrant": true
-	},
-	"workbench.colorTheme": "Monokai",
-	"typescript.check.npmIsInstalled": false,
-	"workbench.activityBar.visible": true,
-	"workbench.statusBar.visible": true,
-	"editor.accessibilitySupport": "off",
-	"terminal.integrated.cursorStyle": "line",
-	"breadcrumbs.enabled": true,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+  "workbench.preferredDarkColorTheme": "Monokai",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.lineHeight": 24,
+  "editor.insertSpaces": false,
+  "editor.minimap.enabled": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "window.title": "${dirty} ${activeEditorLong}",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 13,
+  "workbench.editor.enablePreview": false,
+  "editor.rename.enablePreview": false,
+  "workbench.panel.defaultLocation": "right",
+  "window.zoomLevel": 0.25,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontSize": 13,
+  "editor.wordWrap": "on",
+  "less.validate": false,
+  "scss.validate": false,
+  "css.validate": false,
+  "files.hotExit": "off",
+  "editor.accessibilitySupport": "off",
+  "workbench.tips.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.symbolPath": "off",
+  "git-graph.repository.commits.fetchAvatars": true,
+  "terminal.integrated.confirmOnExit": "always",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "scm.alwaysShowRepositories": true,
+  "workbench.editor.revealIfOpen": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "files.insertFinalNewline": true,
+  "workbench.editor.showIcons": false,
+  "workbench.colorTheme": "Monokai",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "–": true
+  },
+  "workbench.tree.indent": 22,
+  "workbench.layoutControl.enabled": true,
+  "editor.tabSize": 3,
+  "terminal.explorerKind": "external",
+  "editor.detectIndentation": false,
+  "workbench.editor.preferHistoryBasedLanguageDetection": true,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#ffffff"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock",
+    "*": "${basename}.*.${extname}, ${basename}.*"
+  },
+  "debug.confirmOnExit": "always",
+  "editor.foldingStrategy": "indentation",
+  "window.commandCenter": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
